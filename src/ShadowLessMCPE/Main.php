@@ -1,13 +1,6 @@
 <?php
 
-/*
-* This program is free software: you can redistribute it and/or modify
-* it under the terms of the GNU Lesser General Public License as published by
-* the Free Software Foundation, either version 3 of the License, or
-* (at your option) any later version.
-*/
-
-namespace Infernus101;
+namespace ShadowLessMCPE;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerDeathEvent;
@@ -26,7 +19,7 @@ use onebone\economyapi\EconomyAPI;
 class Main extends PluginBase implements Listener{
     public $db;
 	public function onEnable(){
-    $this->getLogger()->info("§b§lLoaded Bounty by Infernus101");
+    $this->getLogger()->info("§b§lLoaded Bounty by ShadowLessMCPE");
 		$files = array("config.yml");
 		foreach($files as $file){
 			if(!file_exists($this->getDataFolder() . $file)) {
