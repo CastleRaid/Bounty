@@ -1,2 +1,2 @@
 # Bounty
-Place Bounty's On Players
+Place bounty's on players
