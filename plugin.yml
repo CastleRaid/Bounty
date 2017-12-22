@@ -2,6 +2,7 @@ name: Bounty
 api: [3.0.0-ALPHA9]
 main: ShadowLessMCPE\Main
 version: 3.0
-author: ShadowLessMCPEcommands:
-  bounty:
-    description: "Bounty help"
+author: ShadowLessMCPE
+commands:
+bounty:
+description: "Bounty help"
